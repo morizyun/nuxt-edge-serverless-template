@@ -1,7 +1,7 @@
-const { Nuxt } = require('nuxt-edge');
-const serverless = require('serverless-http');
-const express = require('express');
-const nuxtConfig = require('./nuxt.config');
+const { Nuxt } = require("nuxt-edge");
+const serverless = require("serverless-http");
+const express = require("express");
+const nuxtConfig = require("./nuxt.config");
 
 const config = { dev: false, ...nuxtConfig };
 const nuxt = new Nuxt(config);
